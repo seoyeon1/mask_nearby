@@ -7,22 +7,37 @@
     <link rel="stylesheet" href="./mask_home.css">
 </head>
 <body>
-
     <div class="container">
-        <h1 class="main-title"></h1>
-        <h2 class="sub-title"></h2>
+        <!-- 로고 -->
+        <div class="logo-wrapper">
+        <h1 class="main-title">우리 동네</h1>
+        <h2 class="sub-title">마스크 어디서 살까?</h2>
     </div>
+
+    <!-- 로더 -->
+    <!-- <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div> -->
+    <!-- 검색창 -->
     <div class="serch-bar-positioner">
         <div class="serch-bar-wrapper">
             <input type="text" id="serch-bar" type="목적지 입력">
             <div class="serch-btn"></div>
         </div>
     </div>
-    <div class="menu">
-        <div class="list-btn"></div>
-        <div class="map-btn"></div>
-    </div>
 
+    <!-- 메뉴 -->
+    <div class="menu">
+        <div class="list-btn">
+            <!-- i태그 fa-list 아이콘 넣기 -->
+            목록으로 보기
+        </div>
+        <div class="map-btn">
+            <!-- i태그 map 아이콘 넣기 -->
+            지도로 보기
+        </div>
+    </div>
+</div>
 
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3bc90bf875208252a578aa3341943070"></script>
     <script type="text/javascript" src='./mask_home.js'></script>
